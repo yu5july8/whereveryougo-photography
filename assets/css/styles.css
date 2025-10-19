@@ -186,6 +186,41 @@ body {
   color: #888;
 }
 
+
+/* ---------- LightWidget Gallery ---------- */
+.gallery-widget {
+  background: #111;
+  padding: 3rem 1rem 5rem;
+  text-align: center;
+}
+
+.gallery-widget iframe {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+.page-header a {
+  color: #f3d250;
+  text-decoration: none;
+}
+
+.page-header a:hover {
+  text-decoration: underline;
+}
+
+/* For smaller screens */
+@media (max-width: 768px) {
+  .gallery-widget {
+    padding: 2rem 0 4rem;
+  }
+
+  .gallery-widget iframe {
+    min-height: 600px;
+  }
+}
 /* ---------- About Page ---------- */
 .about-section {
   background: #111;
